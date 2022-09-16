@@ -1,0 +1,74 @@
+body {
+  background-color: whitesmoke;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+  color: black;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 900;
+  font-size: 106px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+  font-family: sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /*This is how you do image: <img src="img.png" width=1280 height=720 class="center"> */
+}
+
+.share{
+  font-size: 24px;
+  text-align: center;  
+}
+
+.share .fa-facebook{
+  color: #1877f2;
+}
+
+.share .fa-twitter{
+  color: #1da1f2;
+}
+
+.share .fa-whatsapp{
+  color: #075e54;
+}
+
+div{
+  display: none;
+}
+
+footer{
+ margin: 0 auto;
+ width: 100%;
+ text-align: center;
+}
+footer ul{
+ margin: 0px;
+ padding:0;
+}
+footer li {
+ border-right: 1px solid #354052;
+ padding: 0px 10px;
+ display:inline;
+}
+li:last-child {
+ border-right: none; 
+}
+footer li a{
+ text-decoration: none;
+ color: #354052;
+ font-size: 16px;
+ font-family: monospace;
+ }
